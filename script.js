@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             isDeleting = false;
             textIndex = (textIndex + 1) % textArray.length;
         }
-        setTimeout(typeEffect, isDeleting ? 100 : 200);
+        setTimeout(typeEffect, isDeleting ? 100000 : 200000);
     }
 
     typeEffect();
